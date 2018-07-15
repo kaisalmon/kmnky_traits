@@ -36,7 +36,10 @@
             "kmnky_traits:traits:goblin":true,
             "stonehearth:traits:passion_footman": true,
             "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:passion_shepard": true,
+            "stonehearth:traits:passion_worker": true,
             "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_trapper": true,
             "stonehearth:traits:green_thumb": true
          }
       },

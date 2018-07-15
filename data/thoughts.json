@@ -17,6 +17,12 @@
                "tooltip": "Although I am proud of the story behind it, I am ashamed of how this scar makes me look",
                "happiness_delta": -6,
                "stackable": false
+            },
+            "job_beneath_me": {
+               "display_name": "This job is beneath me",
+               "tooltip": "You might be able to force me to do this job, but i shan't be happy about it!",
+               "happiness_delta": -30,
+               "stackable": false
             }
          }
       }
