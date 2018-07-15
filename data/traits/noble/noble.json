@@ -1,0 +1,14 @@
+{
+   "type": "trait",
+   "display_name": "Noble",
+   "description": "[name(i18n_data.entity)] is slightly spoilt, and will be extremely unhappy if their job is \"beneath them\". Their fellow hearlthings put up with this due to the large financial investment they make when they join the town",
+   "icon": "file(noble.png)",
+   "script_controller": "kmnky_traits:trait_scripts:noble",
+   "data": {
+
+   },
+
+   "properties": [
+
+   ]
+}

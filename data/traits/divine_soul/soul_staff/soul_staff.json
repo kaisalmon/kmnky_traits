@@ -45,13 +45,6 @@
             "buyable": false,
             "sellable": false
          }
-      },
-      "stonehearth:catalog": {
-         "display_name": "Soul Staff",
-         "description": "Staff crafted by a Divine Soul",
-         "icon": "file(soul_staff.png)",
-         "category": "weapons",
-         "material_tags": "iron melee_weapon crafted stockpile_weapon"
       }
    }
 }

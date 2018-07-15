@@ -12,6 +12,10 @@
             "glasses": {
                "hidden": true,
                "file": "file(models/glasses_female.qb)"
+            },
+            "noble": {
+               "hidden": true,
+               "file": "file(models/crown.qb)"
             }
          }
       },

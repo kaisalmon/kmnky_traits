@@ -1,0 +1,42 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(crown.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(crown.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "accessory",
+         "ilevel": 0
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 0
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

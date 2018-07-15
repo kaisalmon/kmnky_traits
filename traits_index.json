@@ -6,10 +6,14 @@
    "traits": {
       "kmnky_traits:traits:scarred": { 
          "excludes": {
-            "kmnky_traits:traits:wizened":true
+            "kmnky_traits:traits:wizened":true,
+            "kmnky_traits:traits:noble":true
          }
       },
       "kmnky_traits:traits:goblin": {
+         "excludes":{
+            "kmnky_traits:traits:noble":true
+         }
       },
       "stonehearth:traits:magnificent_beard": {
          "gender": "male",
@@ -18,10 +22,22 @@
       "kmnky_traits:traits:wizened": {
          "excludes": {
             "kmnky_traits:traits:scarred":true,
+            "kmnky_traits:traits:noble":true,
             "stonehearth:traits:passion_footman": true,
             "stonehearth:traits:passion_knight": true,
             "stonehearth:traits:hothead": true,
             "stonehearth:traits:courageous": true
+         }
+      },
+      "kmnky_traits:traits:noble": {
+         "excludes":{
+            "kmnky_traits:traits:wizened":true,
+            "kmnky_traits:traits:scarred":true,
+            "kmnky_traits:traits:goblin":true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:green_thumb": true
          }
       },
       "kmnky_traits:traits:divine_soul": {

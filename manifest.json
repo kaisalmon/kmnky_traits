@@ -15,16 +15,20 @@
 
 		"traits:divine_soul": "file(data/traits/divine_soul/divine_soul.json)",
 
+		"traits:noble": "file(data/traits/noble/noble.json)",
+
       	"weapons:soul_staff": "file(data/traits/divine_soul/soul_staff)",
-      	"traits:soul_outfit": "file(data/traits/divine_soul/soul_outfit)"
+      	"traits:soul_outfit": "file(data/traits/divine_soul/soul_outfit)",
+      	"traits:noble_crown": "file(data/traits/noble/noble_crown)"
+
 	},
 	
-	"overrides" : {		
+	"overrides" : {
+		"/stonehearth/data/traits/traits_index.json" : "file(traits_index.json)",		
 		},
 	"mixintos" : {
 	    "/stonehearth/entities/humans/female/female_customizations.json": "file(customizations_female.json)",
 	    "/stonehearth/entities/humans/male/male_customizations.json": "file(customizations.json)",
-		"/stonehearth/data/traits/traits_index.json" : "file(traits_index.json)",
 	    "/stonehearth/data/happiness/thoughts.json": "file(data/thoughts.json)"
 	
 	},
@@ -35,6 +39,7 @@
       "trait_scripts:scarred": "file(data/traits/scarred/scarred.lua)",
       "trait_scripts:goblin": "file(data/traits/goblin/goblin.lua)",
       "trait_scripts:wizened": "file(data/traits/wizened/wizened.lua)",
-      "trait_scripts:divine_soul": "file(data/traits/divine_soul/divine_soul.lua)"
+      "trait_scripts:divine_soul": "file(data/traits/divine_soul/divine_soul.lua)",
+      "trait_scripts:noble": "file(data/traits/noble/noble.lua)"
 	}
 }
