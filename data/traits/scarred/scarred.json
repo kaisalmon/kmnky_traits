@@ -1,0 +1,27 @@
+{
+   "type": "trait",
+   "display_name": "Scarred",
+   "description": "This poor hearthling suffered an injury many moons ago. It left [name(i18n_data.entity)] disfigured, but they learned a lot from the incident",
+   "icon": "file(scarred.png)",
+   "script_controller": "kmnky_traits:trait_scripts:scarred",
+   "data": {
+      "customization": {
+         "subcategory": "eyebrows",
+         "style": "scar"
+      }
+   },
+   "attribute_modifiers": {
+      "courage": {
+         "add": 100
+      },
+      "speed": {
+         "add": 20
+      },
+      "stamina": {
+         "add": 20
+      }
+   },
+   "properties": [
+
+   ]
+}

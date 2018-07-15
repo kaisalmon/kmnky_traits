@@ -1,0 +1,37 @@
+{
+   "type": "index",
+
+   "styles": {
+      "eyebrows": {
+         "type": "model",
+         "values": {
+            "scar": {
+               "hidden": true,
+               "file": "file(models/scar_female.qb)"
+            },
+            "glasses": {
+               "hidden": true,
+               "file": "file(models/glasses_female.qb)"
+            }
+         }
+      },
+      "skin_color": {
+         "type": "material_map",
+         "values": {
+            "goblin": {
+               "hidden": true,
+               "file": "file(goblin_skin.json)"
+            },
+         }
+      },
+      "head_hair": {
+         "type": "model",
+         "values": {
+            "goblin": {
+               "hidden": true,
+               "file":  "file(models/goblin_female.qb)"
+            }
+         }
+      }
+   }
+}

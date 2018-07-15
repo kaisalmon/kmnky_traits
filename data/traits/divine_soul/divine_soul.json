@@ -1,0 +1,14 @@
+{
+   "type": "trait",
+   "display_name": "Divine Soul",
+   "description": "Since adolescence the healing powers of Cid have flowed through [name(i18n_data.entity)]'s fingers",
+   "icon": "file(divine_soul.png)",
+   "script_controller": "kmnky_traits:trait_scripts:divine_soul",
+   "data": {
+      
+   },
+   
+   "properties": [
+
+   ]
+}
