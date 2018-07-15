@@ -16,10 +16,13 @@
 		"traits:divine_soul": "file(data/traits/divine_soul/divine_soul.json)",
 
 		"traits:noble": "file(data/traits/noble/noble.json)",
+		"traits:jack_of_trades": "file(data/traits/jack_of_trades/jack_of_trades.json)",
 
       	"weapons:soul_staff": "file(data/traits/divine_soul/soul_staff)",
       	"traits:soul_outfit": "file(data/traits/divine_soul/soul_outfit)",
-      	"traits:noble_crown": "file(data/traits/noble/noble_crown)"
+      	"traits:noble_crown": "file(data/traits/noble/noble_crown)",
+      	"buffs:beginners_luck": "file(data/buffs/beginners_luck/beginners_luck.json)",
+      	"buffs:beginners_luck_run_dry": "file(data/buffs/beginners_luck_run_dry/beginners_luck_run_dry.json)"
 
 	},
 	
@@ -40,6 +43,7 @@
       "trait_scripts:goblin": "file(data/traits/goblin/goblin.lua)",
       "trait_scripts:wizened": "file(data/traits/wizened/wizened.lua)",
       "trait_scripts:divine_soul": "file(data/traits/divine_soul/divine_soul.lua)",
-      "trait_scripts:noble": "file(data/traits/noble/noble.lua)"
+      "trait_scripts:noble": "file(data/traits/noble/noble.lua)",
+      "trait_scripts:jack_of_trades": "file(data/traits/jack_of_trades/jack_of_trades.lua)"
 	}
 }

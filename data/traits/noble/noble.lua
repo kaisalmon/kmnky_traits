@@ -45,7 +45,8 @@ end
 
 function noble:destroy()
 
-   self:_remove_glasses_customization()
+   local customization_component = self._sv._entity:get_component('stonehearth:customization')
+   customization_component:change_customization("eyebrows", nil)
 
    if self._job_changed_listener then
       self._job_changed_listener:destroy()
@@ -61,10 +62,7 @@ function noble:_add_glasses_customization()
    customization_component:change_customization("eyebrows", "noble")
 end
 
-function noble:_remove_glasses_customization()
-   local customization_component = self._sv._entity:get_component('stonehearth:customization')
-   customization_component:change_customization("eyebrows", nil)
-end
+
 
 function noble:_adjust_thought()
    -- grab the job component
