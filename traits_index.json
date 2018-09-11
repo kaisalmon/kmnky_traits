@@ -4,15 +4,20 @@
 
    },
    "traits": {
+      "kmnky_traits:traits:martial_trained": { 
+            "kmnky_traits:traits:pacifist":true
+      },
       "kmnky_traits:traits:scarred": { 
          "excludes": {
             "kmnky_traits:traits:wizened":true,
-            "kmnky_traits:traits:noble":true
+            "kmnky_traits:traits:noble":true,
+            "kmnky_traits:traits:pacifist":true
          }
       },
       "kmnky_traits:traits:goblin": {
          "excludes":{
-            "kmnky_traits:traits:noble":true
+            "kmnky_traits:traits:noble":true,
+            "kmnky_traits:traits:pacifist":true
          }
       },
       "stonehearth:traits:magnificent_beard": {
@@ -26,7 +31,23 @@
             "stonehearth:traits:passion_footman": true,
             "stonehearth:traits:passion_knight": true,
             "stonehearth:traits:hothead": true,
-            "stonehearth:traits:courageous": true
+            "stonehearth:traits:courageous": true,
+            "kmnky_traits:traits:barbarian": true
+         }
+      },
+      "kmnky_traits:traits:pacifist": {
+         "excludes": {
+            "kmnky_traits:traits:scarred":true,
+            "kmnky_traits:traits:noble":true,
+            "kmnky_traits:traits:wizened":true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_archer": true,
+            "stonehearth:traits:hothead": true,
+            "stonehearth:traits:courageous": true,
+            "kmnky_traits:traits:barbarian": true,
+            "kmnky_traits:traits:martial_trained": true
          }
       },
       "kmnky_traits:traits:noble": {
@@ -46,6 +67,7 @@
       "kmnky_traits:traits:jack_of_trades": {
           "excludes": {
             "kmnky_traits:traits:divine_soul": true,
+            "kmnky_traits:traits:barbarian": true,
             "stonehearth:traits:passion_archer": true,
             "stonehearth:traits:passion_blacksmith": true,
             "stonehearth:traits:passion_carpenter": true,
@@ -86,7 +108,35 @@
             "stonehearth:traits:passion_weaver": true,
             "stonehearth:traits:passion_worker": true,
             "stonehearth:traits:heart_of_a_crafter":true,
-            "stonehearth:traits:green_thumb": true
+            "stonehearth:traits:green_thumb": true,
+            "kmnky_traits:traits:pacifist":true
+         }
+      },
+      "kmnky_traits:traits:barbarian": {
+         "excludes": {
+            "kmnky_traits:traits:divine_soul": true,
+            "kmnky_traits:traits:jack_of_trades": true,
+            "stonehearth:traits:passion_archer": true,
+            "stonehearth:traits:passion_blacksmith": true,
+            "stonehearth:traits:passion_carpenter": true,
+            "stonehearth:traits:passion_cleric": true,
+            "stonehearth:traits:passion_cook": true,
+            "stonehearth:traits:passion_engineer": true,
+            "stonehearth:traits:passion_farmer": true,
+            "stonehearth:traits:passion_footman": true,
+            "stonehearth:traits:passion_herbalist": true,
+            "stonehearth:traits:passion_knight": true,
+            "stonehearth:traits:passion_mason": true,
+            "stonehearth:traits:passion_potter": true,
+            "stonehearth:traits:passion_shepherd": true,
+            "stonehearth:traits:passion_trapper": true,
+            "stonehearth:traits:passion_weaver": true,
+            "stonehearth:traits:passion_worker": true,
+            "stonehearth:traits:heart_of_a_crafter":true,
+            "stonehearth:traits:green_thumb": true,
+            "kmnky_traits:traits:wizened": true,
+            "kmnky_traits:traits:pacifist":true,
+            "kmnky_traits:traits:noble":true
          }
       }
    }

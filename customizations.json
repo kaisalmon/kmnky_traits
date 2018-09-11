@@ -16,8 +16,12 @@
             "noble": {
                "hidden": true,
                "file":  "file(models/monocle.qb)"
+            },
+            "flower": {
+               "hidden": true,
+               "file": "file(models/flower.qb)"
             }
-         },
+         }
       },
       "skin_color": {
          "type": "material_map",

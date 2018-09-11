@@ -15,9 +15,7 @@ function DivineSoul:activate()
    local json = radiant.resources.load_json(self._sv._uri)
    local population = stonehearth.population:get_population(self._sv._entity:get_player_id())
 
-   -- TODO: Make sure that this listener only gets added ONCE
-   -- this means somehow adding some metadata to the hearthling
-
+   self._sv._entity:get_component('stonehearth:equipment'):equip_item('kmnky_traits:traits:soul_outfit')
 
    self.pop_listener = radiant.events.listen_once(population, 'stonehearth:population:citizen_count_changed', function()
       if not self._sv._entity:get_component('stonehearth:unit_info')._sv._made_divine_soul then
@@ -35,6 +33,8 @@ function DivineSoul:activate()
 end
 
 function DivineSoul:destroy()
+   self._sv._entity:get_component('stonehearth:equipment'):unequip_item('kmnky_traits:traits:soul_outfit')
+   self._sv._entity:get_component('stonehearth:equipment'):equip_item('stonehearth:worker:outfit')
     self.pop_listener:destroy()
 end
 

@@ -16,6 +16,10 @@
             "noble": {
                "hidden": true,
                "file": "file(models/crown.qb)"
+            },
+            "flower": {
+               "hidden": true,
+               "file": "file(models/flower.qb)"
             }
          }
       },

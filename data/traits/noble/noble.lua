@@ -36,11 +36,11 @@ function noble:post_activate()
             population:show_notification_for_citizen(self._sv._entity, str)
             self._sv._entity:get_component('stonehearth:unit_info')._sv._added_noble_gold = true
             self.pop_listener:destroy()
-            self._adjust_thought()
+            self:_adjust_thought()
          end)
       end
    end)
-      
+   self:_adjust_thought()
 end
 
 function noble:destroy()
