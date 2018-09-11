@@ -5,9 +5,8 @@
    "icon": "file(martial_trained.png)",
    "script_controller": "kmnky_traits:trait_scripts:martial_trained",
    "data": {
-
+     "archer_shot": "file(archer_default_shot.json)"
    },
-
    "properties": [
 
    ]

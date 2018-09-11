@@ -1,0 +1,13 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Martial Archership",
+   "description": "Whilst wielding a bow, this hearthling will engage in ranged combat",
+   "icon": "file(martial_archership.png)",
+   "persistent": true,
+   "injected_ai": {
+      "ai_packs": [
+         "stonehearth:ai_pack:ranged_combat",
+      ]
+   }
+}
