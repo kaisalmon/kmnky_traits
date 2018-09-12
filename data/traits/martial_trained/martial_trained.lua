@@ -6,6 +6,7 @@ function martial_trained:initialize()
    self._equip_changed = nil
    self._has_buff = false
    self._archer_shot_item = nil
+   self.pop_listener = nil
 end
 
 function martial_trained:create(entity, uri)
@@ -15,8 +16,11 @@ end
 
 function martial_trained:post_activate()
     self._sv._entity:get_component('stonehearth:unit_info')._sv._can_equip_any_weapon = true
-    self._equip_changed = radiant.events.listen(self._sv._entity, 'stonehearth:equipment_changed', self, self._check_buff)
-    self:_check_buff()
+    local population = stonehearth.population:get_population(self._sv._entity:get_player_id())
+    self.pop_listener = radiant.events.listen(population, 'stonehearth:population:citizen_count_changed', self, function()
+      self._equip_changed = radiant.events.listen(self._sv._entity, 'stonehearth:equipment_changed', self, self._check_buff)
+      self:_check_buff()
+    end)
 end
 function dump(o)
    if type(o) == 'table' then
@@ -63,6 +67,10 @@ function martial_trained:destroy()
     if self._equip_changed then
        self._equip_changed:destroy()
        self._equip_changed = nil
+    end
+    if self.pop_listener then
+       self.pop_listener:destroy()
+       self.pop_listener = nil
     end
 end
 
