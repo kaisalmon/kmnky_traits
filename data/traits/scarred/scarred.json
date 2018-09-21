@@ -1,7 +1,7 @@
 {
    "type": "trait",
-   "display_name": "Scarred",
-   "description": "This poor hearthling suffered an injury many moons ago. It left [name(i18n_data.entity)] disfigured, but they learned a lot from the incident",
+   "display_name": "i18n(kmnky_traits:traits.scarred.display_name)",
+   "description": "i18n(kmnky_traits:traits.scarred.description)",
    "icon": "file(scarred.png)",
    "script_controller": "kmnky_traits:trait_scripts:scarred",
    "data": {
@@ -21,7 +21,5 @@
          "add": 20
       }
    },
-   "properties": [
-
-   ]
+   "properties": []
 }

@@ -1,0 +1,8 @@
+{
+   "traits": {
+      "scarred": {
+         "description": "This poor hearthling suffered an injury many moons ago. It left [name(i18n_data.entity)] disfigured, but they learned a lot from the incident",
+         "display_name": "Scarred"
+      }
+   }
+}
