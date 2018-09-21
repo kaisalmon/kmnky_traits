@@ -1,8 +1,8 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Beginner's Luck Run Dry",
-   "description": "Jack of all trades is only getting 1/5th of the XP",
+   "display_name": "i18n(kmnky_traits:buffs.beginners_luck_run_dry.display_name)",
+   "description": "i18n(kmnky_traits:buffs.beginners_luck_run_dry.description)",
    "icon": "file(beginners_luck_run_dry.png)",
    "persistent": true,
    "modifiers": {

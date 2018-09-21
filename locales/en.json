@@ -1,0 +1,54 @@
+{
+   "traits": {
+      "scarred": {
+         "description": "This poor hearthling suffered an injury many moons ago. It left [name(i18n_data.entity)] disfigured, but they learned a lot from the incident",
+         "display_name": "Scarred"
+      },
+      "goblin": {
+         "display_name": "Goblin",
+         "description": "[name(i18n_data.entity)] is a Goblin. Or a Half-Goblin, really it depends on who's asking. Either way they do more damage, but become very unhappy after fighting other goblins"
+      },
+      "wizened": {
+         "display_name": "Wizened",
+         "description": "Time has greyed [name(i18n_data.entity)]'s hair, slowed their joints, and taken away most of their sight, but it has taught them many valuable lessons. [name(i18n_data.entity)] walks very slowly, but has increased mind and spirit"
+      },
+      "divine_soul": {
+         "display_name": "Divine Soul",
+         "description": "Since adolescence the healing powers of Cid have flowed through [name(i18n_data.entity)]'s fingers"
+      },
+      "noble": {
+         "display_name": "Noble Lineage",
+         "description": "[name(i18n_data.entity)] is slightly spoilt, and will be extremely unhappy if their job is \\\"beneath them\\\". Their fellow hearlthings put up with this due to the large financial investment they make when they join the town"
+      },
+      "jack_of_trades": {
+         "display_name": "Jack of all Trades",
+         "description": "[name(i18n_data.entity)] gains levels of jobs much faster than their peers... at least at first. Beyond level 3 their XP is gained painfully slowly"
+      },
+      "martial_trained": {
+         "display_name": "Martial Trained",
+         "description": "From an early age [name(i18n_data.entity)] has been trained with various forms of weaponry, allowing them to use to any weapon regardless of their job or level"
+      },
+      "barbarian": {
+         "display_name": "Barbarian",
+         "description": "Hailing from savage lands, [name(i18n_data.entity)] joins the town already trained as footman. Their fierce fighting style deals much more damage, but leaves [name(i18n_data.entity)] unable to use armor or shields"
+      },
+      "pacifist": {
+         "display_name": "Pacifist",
+         "description": "[name(i18n_data.entity)] believes that violence isn't the answer to lifes problems. This compassion greatly increases their spirit"
+      }
+   },
+   "buffs": {
+      "beginners_luck": {
+         "display_name": "Beginner's Luck",
+         "description": "Jack of all trades is giving ×5 XP"
+      },
+      "beginners_luck_run_dry": {
+         "display_name": "Beginner's Luck Run Dry",
+         "description": "Jack of all trades is only getting 1/5th of the XP"
+      },
+      "martial_archership": {
+         "display_name": "Martial Archership",
+         "description": "Whilst wielding a bow, this hearthling will engage in ranged combat"
+      }
+   }
+}

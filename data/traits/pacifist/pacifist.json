@@ -1,19 +1,14 @@
 {
    "type": "trait",
-   "display_name": "Pacifist",
-   "description": "[name(i18n_data.entity)] believes that violence isn't the answer to lifes problems. This compassion greatly increases their spirit",
+   "display_name": "i18n(kmnky_traits:traits.pacifist.display_name)",
+   "description": "i18n(kmnky_traits:traits.pacifist.description)",
    "icon": "file(peace.png)",
    "script_controller": "kmnky_traits:trait_scripts:pacifist",
-   "data": {
-      
-   },
+   "data": {},
    "attribute_modifiers": {
       "spirit": {
          "add": 2
       }
    },
-   
-   "properties": [
-
-   ]
+   "properties": []
 }

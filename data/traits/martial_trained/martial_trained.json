@@ -1,13 +1,11 @@
 {
    "type": "trait",
-   "display_name": "Martial Trained",
-   "description": "From an early age [name(i18n_data.entity)] has been trained with various forms of weaponry, allowing them to use to any weapon regardless of their job or level",
+   "display_name": "i18n(kmnky_traits:traits.martial_trained.display_name)",
+   "description": "i18n(kmnky_traits:traits.martial_trained.description)",
    "icon": "file(martial_trained.png)",
    "script_controller": "kmnky_traits:trait_scripts:martial_trained",
    "data": {
-     "archer_shot": "file(archer_default_shot.json)"
+      "archer_shot": "file(archer_default_shot.json)"
    },
-   "properties": [
-
-   ]
+   "properties": []
 }

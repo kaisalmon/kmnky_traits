@@ -1,14 +1,9 @@
 {
    "type": "trait",
-   "display_name": "Jack of all Trades",
-   "description": "[name(i18n_data.entity)] gains levels of jobs much faster than their peers... at least at first. Beyond level 3 their XP is gained painfully slowly",
+   "display_name": "i18n(kmnky_traits:traits.jack_of_trades.display_name)",
+   "description": "i18n(kmnky_traits:traits.jack_of_trades.description)",
    "icon": "file(jack_of_trades.png)",
    "script_controller": "kmnky_traits:trait_scripts:jack_of_trades",
-   "data": {
-
-   },
-
-   "properties": [
-
-   ]
+   "data": {},
+   "properties": []
 }

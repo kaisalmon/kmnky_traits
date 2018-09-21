@@ -1,7 +1,7 @@
 {
    "type": "trait",
-   "display_name": "Wizened",
-   "description": "Time has greyed [name(i18n_data.entity)]'s hair, slowed their joints, and taken away most of their sight, but it has taught them many valuable lessons. [name(i18n_data.entity)] walks very slowly, but has increased mind and spirit",
+   "display_name": "i18n(kmnky_traits:traits.wizened.display_name)",
+   "description": "i18n(kmnky_traits:traits.wizened.description)",
    "icon": "file(wizened.png)",
    "script_controller": "kmnky_traits:trait_scripts:wizened",
    "data": {
@@ -13,7 +13,7 @@
    "attribute_modifiers": {
       "speed": {
          "multiply": 0.75
-      },   
+      },
       "mind": {
          "add": 1
       },
@@ -21,8 +21,5 @@
          "add": 1
       }
    },
-  
-   "properties": [
-
-   ]
+   "properties": []
 }
