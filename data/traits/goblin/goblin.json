@@ -1,18 +1,14 @@
 {
    "type": "trait",
-   "display_name": "Goblin",
-   "description": "[name(i18n_data.entity)] is a Goblin. Or a Half-Goblin, really it depends on who's asking. Either way they do more damage, but become very unhappy after fighting other goblins",
+   "display_name": "i18n(kmnky_traits:traits.goblin.display_name)",
+   "description": "i18n(kmnky_traits:traits.goblin.description)",
    "icon": "file(goblin.png)",
    "script_controller": "kmnky_traits:trait_scripts:goblin",
-   "data": {
-
-   },
+   "data": {},
    "attribute_modifiers": {
       "muscle": {
          "add": 75
       }
    },
-   "properties": [
-
-   ]
+   "properties": []
 }

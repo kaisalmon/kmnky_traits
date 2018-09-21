@@ -1,8 +1,8 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Beginner's Luck",
-   "description": "Jack of all trades is giving ×5 XP",
+   "display_name": "i18n(kmnky_traits:buffs.beginners_luck.display_name)",
+   "description": "i18n(kmnky_traits:buffs.beginners_luck.description)",
    "icon": "file(beginners_luck.png)",
    "persistent": true,
    "modifiers": {

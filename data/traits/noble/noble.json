@@ -1,14 +1,9 @@
 {
    "type": "trait",
-   "display_name": "Noble Lineage",
-   "description": "[name(i18n_data.entity)] is slightly spoilt, and will be extremely unhappy if their job is \"beneath them\". Their fellow hearlthings put up with this due to the large financial investment they make when they join the town",
+   "display_name": "i18n(kmnky_traits:traits.noble.display_name)",
+   "description": "i18n(kmnky_traits:traits.noble.description)",
    "icon": "file(noble.png)",
    "script_controller": "kmnky_traits:trait_scripts:noble",
-   "data": {
-
-   },
-
-   "properties": [
-
-   ]
+   "data": {},
+   "properties": []
 }

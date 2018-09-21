@@ -3,6 +3,14 @@
       "scarred": {
          "description": "This poor hearthling suffered an injury many moons ago. It left [name(i18n_data.entity)] disfigured, but they learned a lot from the incident",
          "display_name": "Scarred"
+      },
+      "goblin": {
+         "display_name": "Goblin",
+         "description": "[name(i18n_data.entity)] is a Goblin. Or a Half-Goblin, really it depends on who's asking. Either way they do more damage, but become very unhappy after fighting other goblins"
+      },
+      "wizened": {
+         "display_name": "Wizened",
+         "description": "Time has greyed [name(i18n_data.entity)]'s hair, slowed their joints, and taken away most of their sight, but it has taught them many valuable lessons. [name(i18n_data.entity)] walks very slowly, but has increased mind and spirit"
       }
    }
 }

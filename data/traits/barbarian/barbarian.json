@@ -1,19 +1,14 @@
 {
    "type": "trait",
-   "display_name": "Barbarian",
-   "description": "Hailing from savage lands, [name(i18n_data.entity)] joins the town already trained as footman. Their fierce fighting style deals much more damage, but leaves [name(i18n_data.entity)] unable to use armor or shields",
+   "display_name": "i18n(kmnky_traits:traits.barbarian.display_name)",
+   "description": "i18n(kmnky_traits:traits.barbarian.description)",
    "icon": "file(barbarian.png)",
    "script_controller": "kmnky_traits:trait_scripts:barbarian",
-   "data": {
-      
-   },
+   "data": {},
    "attribute_modifiers": {
       "muscle": {
          "add": 150
       }
    },
-   
-   "properties": [
-
-   ]
+   "properties": []
 }
