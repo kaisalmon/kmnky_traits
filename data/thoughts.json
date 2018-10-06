@@ -5,22 +5,22 @@
          "mutually_exclusive": false,
          "values": {
             "hurt_by_goblin": {
-               "display_name": "Hurt by Goblin",
-               "tooltip": "I was hurt by one of my own kind, and I feel terrible",
+               "display_name": "i18n(kmnky_traits:data.thoughts.hurt_by_goblin.display_name)",
+               "tooltip": "i18n(kmnky_traits:data.thoughts.hurt_by_goblin.tooltip)",
                "happiness_delta": -3,
                "stackable": true,
                "duration": "24h",
                "max_stacks": 3
             },
             "disfigured": {
-               "display_name": "Disfigured",
-               "tooltip": "Although I am proud of the story behind it, I am ashamed of how this scar makes me look",
+               "display_name": "i18n(kmnky_traits:data.thoughts.disfigured.display_name)",
+               "tooltip": "i18n(kmnky_traits:data.thoughts.disfigured.tooltip)",
                "happiness_delta": -6,
                "stackable": false
             },
             "job_beneath_me": {
-               "display_name": "This job is beneath me",
-               "tooltip": "You might be able to force me to do this job, but i shan't be happy about it!",
+               "display_name": "i18n(kmnky_traits:data.thoughts.job_beneath_me.display_name)",
+               "tooltip": "i18n(kmnky_traits:data.thoughts.job_beneath_me.tooltip)",
                "happiness_delta": -30,
                "stackable": false
             }

@@ -50,5 +50,21 @@
          "display_name": "Martial Archership",
          "description": "Whilst wielding a bow, this hearthling will engage in ranged combat"
       }
+   },
+   "data": {
+      "thoughts": {
+         "hurt_by_goblin": {
+            "display_name": "Hurt by Goblin",
+            "tooltip": "I was hurt by one of my own kind, and I feel terrible"
+         },
+         "disfigured": {
+            "display_name": "Disfigured",
+            "tooltip": "Although I am proud of the story behind it, I am ashamed of how this scar makes me look"
+         },
+         "job_beneath_me": {
+            "display_name": "This job is beneath me",
+            "tooltip": "You might be able to force me to do this job, but i shan't be happy about it!"
+         }
+      }
    }
 }
