@@ -18,7 +18,7 @@
       },
       "noble": {
          "display_name": "Noble Lineage",
-         "description": "[name(i18n_data.entity)] is slightly spoilt, and will be extremely unhappy if their job is \\\"beneath them\\\". Their fellow hearlthings put up with this due to the large financial investment they make when they join the town"
+         "description": "[name(i18n_data.entity)] is slightly spoiled, and will be extremely unhappy if their job is \\\"beneath them\\\". Their fellow hearlthings put up with this due to the large financial investment they make when they join the town"
       },
       "jack_of_trades": {
          "display_name": "Jack of all Trades",
