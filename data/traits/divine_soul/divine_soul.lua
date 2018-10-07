@@ -29,13 +29,13 @@ function DivineSoul:activate()
          self._sv._entity:get_component('stonehearth:unit_info')._sv._made_divine_soul = true
       end
    end)
-   
+
 end
 
 function DivineSoul:destroy()
    self._sv._entity:get_component('stonehearth:equipment'):unequip_item('kmnky_traits:traits:soul_outfit')
-   self._sv._entity:get_component('stonehearth:equipment'):equip_item('stonehearth:worker:outfit')
-    self.pop_listener:destroy()
+   self._sv._entity:get_component("stonehearth:job"):_equip_equipment(self._sv._entity:get_component("stonehearth:job")._job_json)
+  self.pop_listener:destroy()
 end
 
 

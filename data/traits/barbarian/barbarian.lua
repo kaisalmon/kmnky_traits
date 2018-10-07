@@ -38,7 +38,7 @@ function Barbarian:post_activate()
          self:don_outfit()
       end
    end)
-   
+
 end
 
 function Barbarian:don_outfit()
@@ -47,7 +47,8 @@ end
 
 function Barbarian:destroy()
    self._sv._entity:get_component('stonehearth:equipment'):equip_item('kmnky_traits:traits:barbarian_outfit')
-   self._sv._entity:get_component('stonehearth:equipment'):equip_item('stonehearth:worker:outfit')
+
+   self._sv._entity:get_component("stonehearth:job"):_equip_equipment(self._sv._entity:get_component("stonehearth:job")._job_json)
    self.pop_listener:destroy()
    self._job_changed_listener:destroy()
 end
