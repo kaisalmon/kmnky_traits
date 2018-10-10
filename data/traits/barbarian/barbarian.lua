@@ -28,6 +28,11 @@ function Barbarian:post_activate()
          local able_to_be_footman = pcall(function()
            self._sv._entity:get_component('stonehearth:job'):promote_to('stonehearth:jobs:footman', options)
          end)
+         if not able_to_be_footman then
+           local able_to_be_archer = pcall(function()
+             self._sv._entity:get_component('stonehearth:job'):promote_to('stonehearth:jobs:archer', options)
+           end)
+         end
          local all_jobs = stonehearth.player:get_jobs(self._sv._entity:get_player_id())
          local allowed_jobs = {}
          for job_uri, _ in pairs(all_jobs) do
