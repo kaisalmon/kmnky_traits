@@ -2,13 +2,95 @@
    "stonehearth:skin:hilight" : {
       "color" : "#9da072"
    },
+   "stonehearth:rabbit_biped:fur:light_2":{
+      "color" : "#878a5f"
+   },
+   "stonehearth:rabbit_biped:fur:light":{
+      "color" : "#878a5f"
+   },
+   "stonehearth:rabbit_biped:facemask:light":{
+      "color" : "#878a5f"
+   },
+   "stonehearth:rabbit_biped:facemask:light_2":{
+      "color" : "#878a5f"
+   },
    "stonehearth:skin:midtone" : {
       "color" : "#878a5f"
    },
+   "stonehearth:rabbit_biped:facemask:mid":{
+      "color" :  "#7a7c58"
+   },
+   "stonehearth:rabbit_biped:facemask:mid_2":{
+      "color" :  "#7a7c58"
+   },
+   "stonehearth:rabbit_biped:fur:mid_2":{
+      "color" :  "#7a7c58"
+   },
+   "stonehearth:rabbit_biped:fur:mid":{
+      "color" :  "#7a7c58"
+   },
+   "stonehearth:rabbit_biped:fur:blend_Ear_2":{
+      "color" :  "#7a7c58"
+   },
+   "stonehearth:rabbit_biped:fur:blend_Ear":{
+      "color" :  "#7a7c58"
+   },
+
    "stonehearth:skin:shadows" : {
       "color" : "#7a7c58"
    },
+
    "stonehearth:skin:blush" : {
       "color" : "#8a845f"
-   }   
+   },
+   "stonehearth:rabbit_biped:skin:blush":{
+      "color" : "#8a845f"
+   },
+   "stonehearth:rabbit_biped:skin:blush_2":{
+      "color" : "#a09972"
+   },
+
+  "stonehearth:rabbit_biped:cheeks:mid_2":{
+     "color" : "#9da072"
+   },
+  "stonehearth:rabbit_biped:cheeks:mid":{
+     "color" : "#9da072"
+   },
+  "stonehearth:rabbit_biped:toes:mid":{
+     "color" : "#9da072"
+   },
+  "stonehearth:rabbit_biped:toes:mid_2":{
+     "color" : "#9da072"
+   },
+  "stonehearth:rabbit_biped:cheeks:light":{
+     "color" : "#9da072"
+   },
+  "stonehearth:rabbit_biped:cheeks:light_2":{
+     "color" : "#9da072"
+   },
+   "stonehearth:rabbit_biped:toes:light":{
+     "color" : "#9da072"
+   },
+   "stonehearth:rabbit_biped:toes:light_2":{
+     "color" : "#9da072"
+   },
+
+   "stonehearth:rabbit_biped:dark_fur:mid":{
+     "color": "#636a44"
+   },
+   "stonehearth:rabbit_biped:dark_fur:mid_2":{
+     "color": "#636a44"
+   },
+   "stonehearth:rabbit_biped:dark_fur:dark":{
+     "color": "#616841"
+   },
+   "stonehearth:rabbit_biped:dark_fur:dark_2":{
+     "color": "#616841"
+   },
+   "stonehearth:rabbit_biped:dark_fur:darkest":{
+     "color": "#616841"
+   },
+   "stonehearth:rabbit_biped:dark_fur:darkest_2":{
+     "color": "#616841"
+   }
 }

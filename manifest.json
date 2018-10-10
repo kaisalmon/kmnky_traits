@@ -37,8 +37,9 @@
 	    "/stonehearth/entities/humans/female/female_customizations.json": "file(customizations_female.json)",
 		"/stonehearth/data/traits/traits_index.json" : "file(traits_index.json)",
 	    "/stonehearth/entities/humans/male/male_customizations.json": "file(customizations.json)",
-	    "/stonehearth/data/happiness/thoughts.json": "kmnky_traits:thoughts"
-
+	    "/stonehearth/data/happiness/thoughts.json": "kmnky_traits:thoughts",
+			"/stonehearth/entities/rabbit_biped/female/female_customizations.json": "file(customizations_rabbit.json)",
+			"/stonehearth/entities/rabbit_biped/male/male_customizations.json": "file(customizations_rabbit.json)"
 	},
 	"game": {
       "script": "file(injections.lua)"

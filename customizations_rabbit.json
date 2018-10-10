@@ -1,0 +1,15 @@
+{
+   "type": "index",
+
+   "styles": {
+      "skin_color": {
+         "type": "material_map",
+         "values": {
+            "goblin": {
+               "hidden": true,
+               "file": "file(goblin_skin.json)"
+            },
+         }
+      }
+   }
+}
