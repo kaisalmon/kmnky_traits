@@ -25,21 +25,18 @@ function Barbarian:post_activate()
          local options = {}
          options.dont_drop_talisman = true
          options.skip_visual_effects = true
+         local job_comp = self._sv._entity:get_component('stonehearth:job')
          local able_to_be_footman = pcall(function()
-           self._sv._entity:get_component('stonehearth:job'):promote_to('stonehearth:jobs:footman', options)
+            job_comp:promote_to('stonehearth:jobs:footman', options)
          end)
          if not able_to_be_footman then
-           local able_to_be_archer = pcall(function()
-             self._sv._entity:get_component('stonehearth:job'):promote_to('stonehearth:jobs:archer', options)
-           end)
+            local able_to_be_archer = pcall(function()
+               job_comp:promote_to('stonehearth:jobs:archer', options)
+            end)
          end
-         local all_jobs = stonehearth.player:get_jobs(self._sv._entity:get_player_id())
-         local allowed_jobs = {}
-         for job_uri, _ in pairs(all_jobs) do
-            allowed_jobs[job_uri] = true
-         end
-         self._sv._entity:get_component('stonehearth:job')._sv.allowed_jobs = allowed_jobs
-         self._sv._entity:get_component('stonehearth:job')._sv.allowed_jobs["stonehearth:jobs:knight"] = false
+         local allowed = job_comp:get_allowed_jobs()
+         allowed["stonehearth:jobs:knight"] = false
+         job_comp:set_allowed_jobs(allowed)
          self._sv._entity:get_component('stonehearth:unit_info')._sv._made_barbarian = true
          self:don_outfit()
       end
@@ -71,7 +68,7 @@ if EquipmentPieceComponent and not EquipmentPieceComponent.kmnky_traits_injectio
       end
    end
 
-    EquipmentPieceComponent.kmnky_traits_injection2 = true
+   EquipmentPieceComponent.kmnky_traits_injection2 = true
 end
 
 return Barbarian
