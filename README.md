@@ -68,7 +68,7 @@ remove_trait [hearthling_id] kmnky_traits:[trait_name]
 - **10,000+ Active Users** via Steam Workshop  
 - **Version 3.51** - Multiple iteration cycles based on community feedback (Released July 2018, updated through 2019)
 - **200+ Community Comments** with feature requests and bug reports
-- **GitHub Repository**: Development version (Steam Workshop recommended for updates)
+- **Rated 5 stars**, from 272 ratings!
 
 ## 🐛 Bug Reports & Development
 
